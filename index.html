@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <title>Connect 4</title>
+  <link href="connect4.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="game">
+  <form id="start-form">
+    <label for="player1-color">Player 1 Color:</label>
+    <input type="color" id="player1-color" name="player1-color" value="#ff0000"> <!-- Default red -->
+    
+    <label for="player2-color">Player 2 Color:</label>
+    <input type="color" id="player2-color" name="player2-color" value="#0000ff"> <!-- Default blue -->
+    
+    <button type="button" id="start-btn">Start Game</button>
+  </form>
+  <table id="board"></table>
+</div>
+
+<script src="connect4.js"></script>
+
+</body>
+</html>
